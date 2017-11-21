@@ -7,7 +7,7 @@ package com.yonyou.soa.invoke;
 
 public class HttpInvoker implements Invoke {
     public String invoke(Invocation invocation) {
-        System.out.println("代理类全部走到了这里");
+        System.out.println("HttpInvoker------------代理类全部走到了这里");
         return null;
     }
 }

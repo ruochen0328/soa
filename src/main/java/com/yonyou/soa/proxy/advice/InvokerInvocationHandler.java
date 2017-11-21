@@ -26,7 +26,7 @@ public class InvokerInvocationHandler implements InvocationHandler {
         invocation.setMethod(method);
         invocation.setObj(args);
         invocation.setRef(reference);
-        this.invoke.invoke(invocation);
-        return null;
+        String result = this.invoke.invoke(invocation);
+        return result;
     }
 }

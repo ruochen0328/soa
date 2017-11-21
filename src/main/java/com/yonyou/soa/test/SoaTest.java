@@ -11,6 +11,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class SoaTest {
     public static void main(String[] args) {
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("test.xml");
-        applicationContext.getBean("TestServiceImpl");
+        TestService tes = applicationContext.getBean(TestService.class);
+        tes.test();
+
     }
 }

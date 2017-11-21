@@ -31,6 +31,9 @@ public class Reference implements Serializable,FactoryBean {
         invokes.put("rmi",null);
     }
 
+    public Reference(){
+        System.out.println("------------Reference实例化------------");
+    }
     public String getRef() {
         return ref;
     }
@@ -72,8 +75,8 @@ public class Reference implements Serializable,FactoryBean {
     }
 
     public Object getObject() throws Exception {
-        if (!StringUtils.isEmpty(ref)){
-            invoke= invokes.get(ref);
+        if (!StringUtils.isEmpty(protocol)){
+            invoke= invokes.get(protocol);
             if (invoke==null){
                 throw new RuntimeException("ref tag miss");
             }
