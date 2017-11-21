@@ -30,6 +30,8 @@ public class ReferenceBeanDefinitionParser implements BeanDefinitionParser {
         rootBeanDefinition.getPropertyValues().add("ref",ref);
         rootBeanDefinition.getPropertyValues().add("loadbalance",loadbalance);
         rootBeanDefinition.getPropertyValues().add("protocol",protocol);
+        //注册beandefinition
+        parserContext.getRegistry().registerBeanDefinition("reference"+id,rootBeanDefinition);
         return rootBeanDefinition;
     }
 }

@@ -28,6 +28,7 @@ public class ServiceBeanDefinitionParser implements BeanDefinitionParser {
         rootBeanDefinition.getPropertyValues().add("inter",inter);
         rootBeanDefinition.getPropertyValues().add("ref",ref);
         rootBeanDefinition.getPropertyValues().add("protocol",protocol);
+        parserContext.getRegistry().registerBeanDefinition("service"+inter,rootBeanDefinition);
         return rootBeanDefinition;
     }
 }

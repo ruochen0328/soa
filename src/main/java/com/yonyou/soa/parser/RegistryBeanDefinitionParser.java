@@ -24,6 +24,7 @@ public class RegistryBeanDefinitionParser implements BeanDefinitionParser {
         String address = element.getAttribute("address");
         rootBeanDefinition.getPropertyValues().addPropertyValue("protocol",protocol);
         rootBeanDefinition.getPropertyValues().addPropertyValue("address",address);
+        parserContext.getRegistry().registerBeanDefinition("registry"+protocol,rootBeanDefinition);
         return rootBeanDefinition;
     }
 }

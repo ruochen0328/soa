@@ -28,6 +28,7 @@ public class ProtocolBeanDefinitionParser implements BeanDefinitionParser {
         rootBeanDefinition.getPropertyValues().add("name",name);
         rootBeanDefinition.getPropertyValues().add("host",host);
         rootBeanDefinition.getPropertyValues().add("port",port);
+        parserContext.getRegistry().registerBeanDefinition("protocol"+name,rootBeanDefinition);
         return rootBeanDefinition;
     }
 }

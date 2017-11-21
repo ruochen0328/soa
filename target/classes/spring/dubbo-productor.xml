@@ -4,5 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
 	   http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd"
        default-lazy-init="true">
-
+    <bean id="testServiceImpl" class="com.yonyou.soa.test.TestServiceImpl"></bean>
+    <dubbo:registry protocol="redis" address="127.0.0.1:6379"></dubbo:registry>
+    <dubbo:service interface="com.yonyou.soa.test.TestServiceImpl" ref="testServiceImpl"></dubbo:service>
 </beans>
