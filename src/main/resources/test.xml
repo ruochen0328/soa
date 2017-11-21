@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:ruochen="http://code.ruochentech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+	   http://code.ruochentech.com/schema/dubbo http://code.ruochentech.com/schema/dubbo/soa.xsd"
+       default-lazy-init="true">
+    <bean id="testServiceImpl" class="com.yonyou.soa.test.TestServiceImpl"></bean>
+    <ruochen:registry address="127.0.0.1:6379" protocol="redis"></ruochen:registry>
+    <ruochen:reference id="testService" protocol="http" interface="com.yonyou.soa.test.TestService" loadbalance="random"></ruochen:reference>
+    <ruochen:protocol name="http" host="127.0.0.1" port="27017"></ruochen:protocol>
+</beans>
