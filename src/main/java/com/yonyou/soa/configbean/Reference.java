@@ -1,16 +1,26 @@
 package com.yonyou.soa.configbean;
 
+import com.yonyou.soa.LoadBalance.LoadBalance;
+import com.yonyou.soa.LoadBalance.RandomLoadBalance;
+import com.yonyou.soa.LoadBalance.RroundrobBalance;
 import com.yonyou.soa.invoke.HttpInvoker;
 import com.yonyou.soa.invoke.Invoke;
 import com.yonyou.soa.proxy.advice.InvokerInvocationHandler;
+import com.yonyou.soa.registry.BaseRegistryDelegate;
+import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.FactoryBean;
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.util.StringUtils;
 
 import java.io.Serializable;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -18,9 +28,12 @@ import java.util.Map;
  * @date 2017/11/20 18:48
  */
 
-public class Reference implements Serializable,FactoryBean {
+public class Reference implements Serializable,FactoryBean ,InitializingBean,ApplicationContextAware{
     private static final long serialVersionUID = 123456736426587L;
     private static Map<String,Invoke> invokes=new HashMap<String, Invoke>();
+    private List<String> registryInfo=new ArrayList<String>();
+    private static Map<String,LoadBalance> loadBalanceMap=new HashMap<String, LoadBalance>();
+    private ApplicationContext applicationContext;
     private String id;
     private String ref;
     private String loadbalance;
@@ -29,6 +42,9 @@ public class Reference implements Serializable,FactoryBean {
     static {
         invokes.put("http",new HttpInvoker());
         invokes.put("rmi",null);
+
+        loadBalanceMap.put("random",new RandomLoadBalance());
+        loadBalanceMap.put("roundrob",new RroundrobBalance());
     }
 
     public Reference(){
@@ -74,6 +90,22 @@ public class Reference implements Serializable,FactoryBean {
         this.protocol = protocol;
     }
 
+    public List<String> getRegistryInfo() {
+        return registryInfo;
+    }
+
+    public void setRegistryInfo(List<String> registryInfo) {
+        this.registryInfo = registryInfo;
+    }
+
+    public static Map<String, LoadBalance> getLoadBalanceMap() {
+        return loadBalanceMap;
+    }
+
+    public static void setLoadBalanceMap(Map<String, LoadBalance> loadBalanceMap) {
+        Reference.loadBalanceMap = loadBalanceMap;
+    }
+
     public Object getObject() throws Exception {
         if (!StringUtils.isEmpty(protocol)){
             invoke= invokes.get(protocol);
@@ -100,5 +132,14 @@ public class Reference implements Serializable,FactoryBean {
 
     public boolean isSingleton() {
         return true;
+    }
+
+    public void afterPropertiesSet() throws Exception {
+        List<String> registrys = BaseRegistryDelegate.getRegistry(id, applicationContext);
+        this.registryInfo=registrys;
+    }
+
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        this.applicationContext=applicationContext;
     }
 }

@@ -3,6 +3,7 @@ package com.yonyou.soa.parser;
 import com.yonyou.soa.configbean.Protocol;
 import com.yonyou.soa.configbean.Reference;
 import com.yonyou.soa.configbean.Registry;
+import com.yonyou.soa.configbean.Service;
 import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 
 /**
@@ -15,6 +16,6 @@ public class SOANamespaceHandler extends NamespaceHandlerSupport {
         registerBeanDefinitionParser("registry",new RegistryBeanDefinitionParser(Registry.class));
         registerBeanDefinitionParser("reference",new ReferenceBeanDefinitionParser(Reference.class));
         registerBeanDefinitionParser("protocol",new ProtocolBeanDefinitionParser(Protocol.class));
-        registerBeanDefinitionParser("service",new ServiceBeanDefinitionParser(Registry.class));
+        registerBeanDefinitionParser("service",new ServiceBeanDefinitionParser(Service.class));
     }
 }
