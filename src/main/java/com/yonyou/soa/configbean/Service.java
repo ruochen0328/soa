@@ -9,6 +9,8 @@ import org.springframework.context.ApplicationContextAware;
 import java.io.Serializable;
 
 /**
+ * 一个service实例代表一个配置文件中的标签，配置多个就会有多个service，会向注册中心注册
+ * <ruochen:service interface="com.yonyou.soa.test.TestService" ref="testService1" protocol="netty"></ruochen:service>
  * @author yangwshh@yonyou.com
  * @date 2017/11/20 19:14
  */
@@ -18,7 +20,7 @@ public class Service implements Serializable,InitializingBean,ApplicationContext
     private String inter;
     private String ref;
     private String protocol;
-    private ApplicationContext applicationContext;
+    private static ApplicationContext applicationContext;
     public String getInter() {
         return inter;
     }
@@ -49,5 +51,9 @@ public class Service implements Serializable,InitializingBean,ApplicationContext
 
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext=applicationContext;
+    }
+
+    public static ApplicationContext getApplicationContext() {
+        return applicationContext;
     }
 }

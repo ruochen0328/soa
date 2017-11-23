@@ -8,7 +8,7 @@
     <!--<bean id="testServiceImpl" class="com.yonyou.soa.test.TestServiceImpl"></bean>-->
     <ruochen:registry address="127.0.0.1:6379" protocol="redis"></ruochen:registry>
     <!--reference的id要和service的ref一样，注册的时候ref就是key-->
-    <ruochen:reference id="testService1" protocol="http" interface="com.yonyou.soa.test.TestService" loadbalance="random"></ruochen:reference>
+    <ruochen:reference id="testService1" protocol="http" interface="com.yonyou.soa.test.TestService" loadbalance="roundrob"></ruochen:reference>
     <ruochen:protocol name="http" host="127.0.0.1" port="27017"></ruochen:protocol>
     <!--<ruochen:service interface="com.yonyou.soa.test.TestService" ref="testService1" protocol="netty"></ruochen:service>-->
     <!--<ruochen:service interface="com.yonyou.soa.test.TestService" ref="testService1" protocol="rmi"></ruochen:service>-->
