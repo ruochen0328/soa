@@ -1,5 +1,8 @@
 package com.yonyou.soa.configbean;
 
+import org.springframework.context.ApplicationListener;
+import org.springframework.context.event.ContextRefreshedEvent;
+
 import java.io.Serializable;
 
 /**
@@ -7,7 +10,7 @@ import java.io.Serializable;
  * @date 2017/11/20 19:06
  */
 
-public class Protocol implements Serializable{
+public class Protocol implements Serializable,ApplicationListener<ContextRefreshedEvent>{
     private static final long serialVersionUID = 1232345322257L;
     private String name;
     private String port;
@@ -35,5 +38,13 @@ public class Protocol implements Serializable{
 
     public void setHost(String host) {
         this.host = host;
+    }
+
+    public void onApplicationEvent(ContextRefreshedEvent event) {
+        if (!ContextRefreshedEvent.class.getName().equals(event.getClass().getName())){
+            return;
+        }else{
+            //新建一个线程去启动netty
+        }
     }
 }

@@ -23,7 +23,6 @@ public class RandomLoadBalance implements LoadBalance{
             node=JSONObject.parseObject(obj.toString());
         }
         JSONObject protocol = node.getJSONObject("protocol");
-        JSONObject service = node.getJSONObject("service");
         NodeInfo nodeInfo=new NodeInfo();
         nodeInfo.setHost(protocol.get("host")!=null? protocol.getString("host"):"");
         nodeInfo.setPort(protocol.get("port")!=null?protocol.getString("port"):"");

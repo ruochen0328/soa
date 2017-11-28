@@ -14,8 +14,6 @@ public class SoaTest {
     public static void main(String[] args) {
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("test.xml");
         TestService tes = applicationContext.getBean(TestService.class);
-        Reference bean = applicationContext.getBean(Reference.class);
-
         tes.test();
 
     }

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="soa:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="cloud-soa-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="soa:war exploded" />
+    </root>
+  </artifact>
+</component>
