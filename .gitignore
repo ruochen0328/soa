@@ -5,4 +5,3 @@ target/
 .classpath
 *.iml
 *.versionsBackup
-cache-demo2.log
