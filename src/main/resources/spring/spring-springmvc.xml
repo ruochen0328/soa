@@ -7,8 +7,15 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
     <!-- 启用spring mvc 注解-->
     <mvc:annotation-driven/>
-    <!-- MVC转换 -->
+    <!-- MVC转换  如果发现是静态资源的请求，就将该请求转由Web应用服务器默认的Servlet处理，
+    如果不是静态资源的请求，才由DispatcherServlet继续处理。-->
     <mvc:default-servlet-handler/>
+    <!--以下配置将Web根路径"/"及类路径下 /META-INF/publicResources/ 的目录映射为/resources路径。假设Web根路径下拥有images、
+    js这两个资源目录,在images下面有bg.gif图片，在js下面有test.js文件，则可以通过 /resources/images/bg.gif
+    和 /resources/js/test.js 访问这二个静态资源。
+    <mvc:resources location="/,classpath:/META-INF/publicResources/" mapping="/resources/**"/>-->
+    <!-- <mvc:resources mapping="/**" location="/" />-->
+
     <!--json解析器配置-->
     <!--将字符串转换为json-->
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
@@ -58,6 +65,5 @@
             </props>
         </property>
     </bean>
-   <!-- &lt;!&ndash;静态资源映射&ndash;&gt;
-    <mvc:resources mapping="/**" location="/" />-->
+
 </beans>

@@ -1,0 +1,11 @@
+原生java客户端：
+<dependency>
+<groupId>org.mongodb</groupId>
+<artifactId>mongo-java-driver</artifactId>
+<version>3.6.0</version>
+</dependency>
+
+
+
+
+

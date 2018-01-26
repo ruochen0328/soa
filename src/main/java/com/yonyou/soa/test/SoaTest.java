@@ -12,9 +12,8 @@ import org.springframework.http.HttpRequest;
 
 public class SoaTest {
     public static void main(String[] args) {
-        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("test.xml");
-        TestService tes = applicationContext.getBean(TestService.class);
-        tes.test();
-
+        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("classpath:/spring/spring.xml");
+        Student tes = applicationContext.getBean(Student.class);
+        System.out.println(tes);
     }
 }

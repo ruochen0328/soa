@@ -1,6 +1,7 @@
 package com.yonyou.dubbo.consumer;
 
 import com.yonyou.hrcloud.demo.DemoService;
+import com.yonyou.hrcloud.demo.DemoServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
@@ -16,8 +17,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping(value = "/login")
 @Controller
 public class LoginController {
-    @Autowired
-    DemoService demoService;
+    //@Autowired
+    DemoService demoService=new DemoServiceImpl();
     @RequestMapping(value = "/test/{path}")
     @ResponseBody
     public String test(@RequestParam String param, @PathVariable String path){

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo.xsd">
+
+	<!-- <context:property-placeholder location="classpath:/com/myapp/mongodb/config/mongo.properties" 
+		/> -->
+	<!--扫描config目录下的AppConfig，这个类带有@Configuration注解，就会被扫描到，
+	可以作为配置文件使用，这个类中有@Bean  MongoClient就会被注入起来，那么直接在引用到的地方直接@Resource  private MongoClient client就可以了
+	<context:component-scan base-package="com.mongodb.config"/>-->
+
+	<!-- mongodb连接池配置 -->
+	<mongo:mongo-client host="192.168.124.151" port="27022" id="mongo">
+		<mongo:client-options 
+		     write-concern="ACKNOWLEDGED"
+		      connections-per-host="100"
+		      threads-allowed-to-block-for-connection-multiplier="5"
+		      max-wait-time="120000"
+			  connect-timeout="10000"/> 
+	</mongo:mongo-client>
+	
+	<!-- mongodb数据库工厂配置,这里链接的是lison数据库 -->
+	<mongo:db-factory dbname="lison" mongo-ref="mongo" />
+	
+ 	<mongo:mapping-converter base-package="com.mongodb.entity">
+	  <mongo:custom-converters>
+	      <mongo:converter>
+	        <bean class="com.mongodb.convert.BigDecimalToDecimal128Converter"/>
+	      </mongo:converter>
+	      <mongo:converter>
+	        <bean class="com.mongodb.convert.Decimal128ToBigDecimalConverter"/>
+	      </mongo:converter>
+    </mongo:custom-converters>
+	
+	</mongo:mapping-converter>
+
+    <!-- mongodb模板配置 -->
+	<bean id="anotherMongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+		<constructor-arg name="mongoDbFactory" ref="mongoDbFactory" />
+		<constructor-arg name="mongoConverter" ref="mappingConverter"/>
+		<property name="writeResultChecking" value="EXCEPTION"></property>
+	</bean>
+
+</beans>

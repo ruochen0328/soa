@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo.xsd">
+
+	<!-- <context:property-placeholder location="classpath:/com/myapp/mongodb/config/mongo.properties" 
+		/> -->
+	<!-- mongodb连接池配置 -->
+	<mongo:mongo-client host="192.168.124.151" port="27022" id="mongo">
+		<mongo:client-options 
+		     write-concern="ACKNOWLEDGED"
+		      connections-per-host="100"
+		      threads-allowed-to-block-for-connection-multiplier="5"
+		      max-wait-time="120000"
+			  connect-timeout="10000"/> 
+	</mongo:mongo-client>
+	
+	<!-- mongodb数据库工厂配置,这里链接的是lison数据库 -->
+	<mongo:db-factory dbname="lison" mongo-ref="mongo" />
+	
+ 	<mongo:mapping-converter base-package="com.dongnao.mongo.entity">
+	  <mongo:custom-converters>
+	      <mongo:converter>
+	        <bean class="com.dongnao.mongo.convert.BigDecimalToDecimal128Converter"/>
+	      </mongo:converter>
+	      <mongo:converter>
+	        <bean class="com.dongnao.mongo.convert.Decimal128ToBigDecimalConverter"/>
+	      </mongo:converter>
+    </mongo:custom-converters>
+	
+	</mongo:mapping-converter>
+
+    <!-- mongodb模板配置 -->
+	<bean id="anotherMongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+		<constructor-arg name="mongoDbFactory" ref="mongoDbFactory" />
+		<constructor-arg name="mongoConverter" ref="mappingConverter"/>
+		<property name="writeResultChecking" value="EXCEPTION"></property>
+	</bean>
+
+</beans>
