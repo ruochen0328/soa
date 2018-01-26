@@ -1,0 +1,8 @@
+target/
+.settings/
+.idea/
+.project
+.classpath
+*.iml
+*.versionsBackup
+cache-demo2.log

@@ -7,305 +7,301 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f0d0283-f491-4f09-972a-8a190fdace76" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_1_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_webmagic_core_0_7_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_webmagic_extension_0_7_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_xsoup_0_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/config/AppConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/convert/BigDecimalToDecimal128Converter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/convert/Decimal128ToBigDecimalConverter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/entity/Address.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/entity/Favorites.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/entity/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/pom" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/builder/BuilderTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/builder/ClientOptions.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ruochen/MyAspect.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ruochen/aoptest/IToAdviceClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ruochen/aoptest/ToAdviceClassImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/annotation/CacheAspect.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/annotation/Mycache.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/annotation/Product.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/annotation/ProductService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/annotation/ProductServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/annotation/ProxyDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/annotation/TestDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/annotation/elparser/ElParser.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/pattern/subscribe/Publisher.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/pattern/subscribe/SchoolPublisher.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/pattern/subscribe/Subscriber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/My1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/My2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/My3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/My4.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/My5.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/My6.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/My9.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/MyTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/Student.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/thread/exercises/Demo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/thread/exercises/Demo2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/thread/exercises/Demo3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/thread/exercises/Demo4.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/thread/exercises/JoinDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/thread/exercises/LockCondtionDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/thread/exercises/LockCondtionDemo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/thread/threadpool/ThreadPoolDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/thread/util/CountDownLatchDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/thread/util/CyclicBarrierDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/wether/GithubRepoPageProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/wether/WetherSpider.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/wether/utils/JsoupUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mongodb.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/dongnao/mongo/test/QuickStartJavaDocTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/dongnao/mongo/test/QuickStartJavaPojoTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/dongnao/mongo/test/QuickStartSpringPojoTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/dubbo/consumer/LoginController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/LoadBalance/LoadBalance.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/LoadBalance/NodeInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/LoadBalance/RandomLoadBalance.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/LoadBalance/RroundrobBalance.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/invoke/HttpInvoker.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/invoke/Invocation.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/invoke/Invoke.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/proxy/advice/InvokerInvocationHandler.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/redis/RedisApi.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/registry/BaseRegistry.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/registry/BaseRegistryDelegate.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/registry/RedisRegistry.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/remote/dispatcher/DispatcherServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/rpc/http/HttpRequest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My4.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My5.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My6.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My9.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/MyTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/Student.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo1$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo1$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo1$Behaver.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo2$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo2$Mywork.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo4.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/JoinDemo$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/JoinDemo$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/JoinDemo$3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/JoinDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/LockCondtionDemo$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/LockCondtionDemo$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/LockCondtionDemo$Mywork.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/LockCondtionDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/threadpool/ThreadPoolDemo$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/threadpool/ThreadPoolDemo$Mywork.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/threadpool/ThreadPoolDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CountDownLatchDemo$Consumer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CountDownLatchDemo$Producer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CountDownLatchDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CyclicBarrierDemo$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CyclicBarrierDemo$Consumer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CyclicBarrierDemo$Producer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CyclicBarrierDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/wether/GithubRepoPageProcessor.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/wether/WetherSpider.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/wether/utils/JsoupUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/config.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-dubbo-consumer.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mybatis.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT.war" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/META-INF/soa.xsd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/META-INF/spring.handlers" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/META-INF/spring.schemas" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/dubbo/consumer/LoginController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/LoadBalance/LoadBalance.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/LoadBalance/NodeInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/LoadBalance/RandomLoadBalance.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/LoadBalance/RroundrobBalance.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/configbean/Protocol.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/configbean/Reference.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/configbean/Registry.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/configbean/Service.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/invoke/HttpInvoker.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/invoke/Invocation.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/invoke/Invoke.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/parser/ProtocolBeanDefinitionParser.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/parser/ReferenceBeanDefinitionParser.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/parser/RegistryBeanDefinitionParser.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/parser/SOANamespaceHandler.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/parser/ServiceBeanDefinitionParser.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/proxy/advice/InvokerInvocationHandler.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/redis/RedisApi.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/registry/BaseRegistry.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/registry/BaseRegistryDelegate.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/registry/RedisRegistry.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/remote/dispatcher/DispatcherServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/rpc/http/HttpRequest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/SoaTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/TestService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/TestServiceImpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/wether/GithubRepoPageProcessor.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/wether/WetherSpider.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/wether/utils/JsoupUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/config/config.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-dubbo-consumer.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mybatis.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-springmvc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/spring/spring.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/test.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/accessors-smart-1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/ant-1.9.6.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/ant-launcher-1.9.6.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/asm-5.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.9.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.7.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/assertj-core-1.5.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/cglib-3.2.5.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/cglib-nodep-3.2.5.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.6.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/dubbo-2.5.5.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/dubbo-provider-1.0-SNAPSHOT.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/dubboprovider2-1.0-SNAPSHOT.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.38.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.4.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.7.5.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.7.5.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.4.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.7.5.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.9.4.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.7.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/json-path-2.4.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/json-smart-2.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jsoup-1.10.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.7.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/log4j-core-2.7.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/log4j-slf4j-impl-2.7.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.16.14.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.11.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/mongo-java-driver-2.14.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.4.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.25.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/netty-3.2.5.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/netty-3.7.0.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.10.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.6.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-3.2.2.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.12.5.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-data-mongodb-1.9.5.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-data-mongodb-cross-store-1.9.4.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-data-mongodb-log4j-1.9.5.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-3.2.2.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/webmagic-core-0.7.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/webmagic-extension-0.7.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/xsoup-0.3.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/zkclient-0.10.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.8.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/soa_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/soa_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_12.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_12.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_14_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_6_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_9_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_9_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_cross_store_1_9_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_cross_store_1_9_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_3_2_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_14_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_14_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_14_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_2_2_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_3_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_3_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/soa.iml" afterPath="$PROJECT_DIR$/soa.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yonyou/dubbo/consumer/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/dubbo/consumer/LoginController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/SoaTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/SoaTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/TestService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yonyou/soa/test/TestServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-springmvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-springmvc.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Protocol.class" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Protocol.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Reference.class" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Reference.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Registry.class" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Registry.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Service.class" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Service.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/ProtocolBeanDefinitionParser.class" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/ProtocolBeanDefinitionParser.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/ReferenceBeanDefinitionParser.class" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/ReferenceBeanDefinitionParser.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/RegistryBeanDefinitionParser.class" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/RegistryBeanDefinitionParser.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/SOANamespaceHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/SOANamespaceHandler.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/ServiceBeanDefinitionParser.class" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/ServiceBeanDefinitionParser.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/SoaTest.class" afterPath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/SoaTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/TestService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/TestServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-springmvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-springmvc.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/soa.xsd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring.handlers" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring.schemas" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dongnao/mongo/convert/BigDecimalToDecimal128Converter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dongnao/mongo/convert/Decimal128ToBigDecimalConverter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dongnao/mongo/entity/Address.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dongnao/mongo/entity/Favorites.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dongnao/mongo/entity/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mongodb/convert/BigDecimalToDecimal128Converter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mongodb/convert/Decimal128ToBigDecimalConverter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mongodb/entity/Address.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mongodb/entity/Favorites.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mongodb/entity/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/builder/BuilderTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/builder/ClientOptions$Builder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/builder/ClientOptions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/builder/MyMongoClientOptions$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/builder/MyMongoClientOptions$Builder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/builder/MyMongoClientOptions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruochen/MyAspect.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruochen/TestAspect.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruochen/aoptest/IToAdviceClass.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruochen/aoptest/ToAdviceClassImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/annotation/CacheAspect.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/annotation/Mycache.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/annotation/Product.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/annotation/ProductService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/annotation/ProductServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/annotation/ProxyDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/annotation/TestDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/annotation/elparser/ElParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/dubbo/consumer/LoginController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/pattern/subscribe/Publisher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/pattern/subscribe/SchoolPublisher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/pattern/subscribe/Subscriber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/LoadBalance/LoadBalance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/LoadBalance/NodeInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/LoadBalance/RandomLoadBalance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/LoadBalance/RroundrobBalance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Protocol.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Reference.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Registry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/configbean/Service.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/invoke/HttpInvoker.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/invoke/Invocation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/invoke/Invoke.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/ProtocolBeanDefinitionParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/ReferenceBeanDefinitionParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/RegistryBeanDefinitionParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/SOANamespaceHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/parser/ServiceBeanDefinitionParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/proxy/advice/InvokerInvocationHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/redis/RedisApi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/registry/BaseRegistry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/registry/BaseRegistryDelegate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/registry/RedisRegistry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/remote/dispatcher/DispatcherServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/rpc/http/HttpRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/My9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/MyTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/SoaTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/soa/test/Student.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo1$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo1$Behaver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo2$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo2$Mywork.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo4$Printer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/Demo4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/JoinDemo$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/JoinDemo$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/JoinDemo$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/JoinDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/LockCondtionDemo$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/LockCondtionDemo$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/LockCondtionDemo$Mywork.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/LockCondtionDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/LockCondtionDemo1$Color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/exercises/LockCondtionDemo1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/threadpool/ThreadPoolDemo$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/threadpool/ThreadPoolDemo$Mywork.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/threadpool/ThreadPoolDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CountDownLatchDemo$Consumer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CountDownLatchDemo$Producer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CountDownLatchDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CyclicBarrierDemo$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CyclicBarrierDemo$Consumer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CyclicBarrierDemo$Producer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/thread/util/CyclicBarrierDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/wether/GithubRepoPageProcessor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/wether/WetherSpider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yonyou/wether/utils/JsoupUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/config.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-dubbo-consumer.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mongodb.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mybatis.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-springmvc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/META-INF/soa.xsd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/META-INF/spring.handlers" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/META-INF/spring.schemas" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/ruochen/MyAspect.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/ruochen/TestAspect.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/ruochen/aoptest/IToAdviceClass.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/ruochen/aoptest/ToAdviceClassImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/annotation/CacheAspect.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/annotation/Mycache.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/annotation/Product.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/annotation/ProductService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/annotation/ProductServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/annotation/ProxyDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/annotation/TestDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/annotation/elparser/ElParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/dubbo/consumer/LoginController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/pattern/subscribe/Publisher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/pattern/subscribe/SchoolPublisher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/pattern/subscribe/Subscriber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/LoadBalance/LoadBalance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/LoadBalance/NodeInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/LoadBalance/RandomLoadBalance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/LoadBalance/RroundrobBalance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/configbean/Protocol.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/configbean/Reference.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/configbean/Registry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/configbean/Service.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/invoke/HttpInvoker.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/invoke/Invocation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/invoke/Invoke.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/parser/ProtocolBeanDefinitionParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/parser/ReferenceBeanDefinitionParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/parser/RegistryBeanDefinitionParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/parser/SOANamespaceHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/parser/ServiceBeanDefinitionParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/proxy/advice/InvokerInvocationHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/redis/RedisApi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/registry/BaseRegistry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/registry/BaseRegistryDelegate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/registry/RedisRegistry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/remote/dispatcher/DispatcherServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/rpc/http/HttpRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/My1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/My2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/My3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/My4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/My5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/My6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/My9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/MyTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/SoaTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/Student.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/TestService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/soa/test/TestServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/Demo1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/Demo1$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/Demo1$Behaver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/Demo1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/Demo2$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/Demo2$Mywork.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/Demo2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/Demo3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/Demo4$Printer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/Demo4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/JoinDemo$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/JoinDemo$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/JoinDemo$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/JoinDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/LockCondtionDemo$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/LockCondtionDemo$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/LockCondtionDemo$Mywork.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/LockCondtionDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/LockCondtionDemo1$Color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/exercises/LockCondtionDemo1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/threadpool/ThreadPoolDemo$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/threadpool/ThreadPoolDemo$Mywork.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/threadpool/ThreadPoolDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/util/CountDownLatchDemo$Consumer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/util/CountDownLatchDemo$Producer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/util/CountDownLatchDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/util/CyclicBarrierDemo$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/util/CyclicBarrierDemo$Consumer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/util/CyclicBarrierDemo$Producer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/thread/util/CyclicBarrierDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/wether/GithubRepoPageProcessor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/wether/WetherSpider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/com/yonyou/wether/utils/JsoupUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/config/config.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-dubbo-consumer.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mybatis.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-springmvc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/spring/spring.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/classes/test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/accessors-smart-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/ant-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/ant-launcher-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/asm-5.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.6.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.6.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.7.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/assertj-core-1.5.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/cglib-3.2.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/cglib-nodep-3.2.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/dubbo-2.5.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/dubbo-provider-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/dubboprovider2-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.38.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.7.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.7.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.7.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.9.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.7.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/json-path-2.4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/json-smart-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/jsoup-1.10.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/log4j-core-2.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/log4j-slf4j-impl-2.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.16.14.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/mongo-java-driver-2.14.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/netty-3.2.5.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/netty-3.7.0.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-3.2.2.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.12.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-data-mongodb-1.9.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-data-mongodb-cross-store-1.9.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-data-mongodb-log4j-1.9.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-3.2.2.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/webmagic-core-0.7.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/webmagic-extension-0.7.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/xsoup-0.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/zkclient-0.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-soa-1.0-SNAPSHOT/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dongnao/mongo/test/QuickStartJavaDocTest$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dongnao/mongo/test/QuickStartJavaDocTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dongnao/mongo/test/QuickStartJavaPojoTest$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dongnao/mongo/test/QuickStartJavaPojoTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dongnao/mongo/test/QuickStartSpringPojoTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -354,7 +350,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.5.0/mongo-java-driver-3.5.0.jar!/com/mongodb/client/model/Filters.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="870">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
                 <marker date="1516619687354" expanded="true" signature="0:104" ph="/.../" />
                 <marker date="1516619687354" expanded="true" signature="148:824" ph="..." />
@@ -483,7 +479,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dongnao/mongo/test/QuickStartJavaPojoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-83">
-              <caret line="141" column="52" lean-forward="true" selection-start-line="141" selection-start-column="52" selection-end-line="141" selection-end-column="52" />
+              <caret line="141" column="52" lean-forward="false" selection-start-line="141" selection-start-column="52" selection-end-line="141" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -491,11 +487,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoClientOptions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MongoClientOptions.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.6.0/mongo-java-driver-3.6.0-sources.jar!/com/mongodb/MongoClientOptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="418" column="7" lean-forward="true" selection-start-line="418" selection-start-column="7" selection-end-line="418" selection-end-column="7" />
+            <state relative-caret-position="506">
+              <caret line="396" column="5" lean-forward="false" selection-start-line="396" selection-start-column="5" selection-end-line="396" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -535,27 +541,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mongodb.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-270">
-              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-103">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+              <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -616,7 +602,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/yonyou/thread/JoinDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yonyou/thread/util/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yonyou/thread/util/CountDownLatchDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yonyou/thread/exercises/Demo1.java" />
@@ -667,6 +652,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mongodb/entity/Address.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dongnao/mongo/test/QuickStartJavaPojoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dongnao/mongo/test/QuickStartSpringPojoTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -799,109 +785,6 @@
               <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
               <item name="soa" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="convert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudsoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -925,11 +808,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Workspace\intellij idea\soa" />
       <recent name="E:\Workspace\intellij idea\soa\src\main\java\com\mongodb\config" />
       <recent name="E:\Workspace\intellij idea\soa\src" />
       <recent name="E:\Workspace\intellij idea\soa\src\main\java\com\mongodb" />
       <recent name="E:\Workspace\intellij idea\soa\src\main\java\com\yonyou\soa\test" />
-      <recent name="E:\Workspace\intellij idea\soa\src\main\java\com\yonyou\soa\rpc\http" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yonyou.thread.exercises" />
@@ -1418,7 +1301,7 @@
       <workItem from="1516591054325" duration="54000" />
       <workItem from="1516619614927" duration="892000" />
       <workItem from="1516847523769" duration="21749000" />
-      <workItem from="1516933986772" duration="8649000" />
+      <workItem from="1516933986772" duration="10448000" />
     </task>
     <servers />
   </component>
@@ -1455,7 +1338,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258193000" />
+    <option name="totallyTimeSpent" value="259992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1468,7 +1351,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25263157" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1489,9 +1371,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30444965" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30444965" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24941452" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" x="28" y="374" width="1864" height="282" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47189695" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" x="28" y="374" width="1864" height="282" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17006437" sideWeight="0.4938918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1543,28 +1425,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/yonyou/hrcloud/dubbo-provider/1.0-SNAPSHOT/dubbo-provider-1.0-SNAPSHOT-sources.jar!/com/yonyou/hrcloud/demo/DemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/yonyou/hrcloud/dubbo-provider/1.0-SNAPSHOT/dubbo-provider-1.0-SNAPSHOT-sources.jar!/com/yonyou/hrcloud/demo/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mongodb/convert/Decimal128ToBigDecimalConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -2045,8 +1905,8 @@
         <state relative-caret-position="178">
           <caret line="386" column="42" lean-forward="false" selection-start-line="386" selection-start-column="42" selection-end-line="386" selection-end-column="42" />
           <folding>
-            <element signature="e#25216#25217#0" expanded="true" />
-            <element signature="e#25255#25256#0" expanded="true" />
+            <element signature="e#25216#25217#0" expanded="false" />
+            <element signature="e#25255#25256#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2062,7 +1922,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.5.0/mongo-java-driver-3.5.0.jar!/com/mongodb/client/model/Filters.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
             <marker date="1516619687354" expanded="true" signature="0:104" ph="/.../" />
             <marker date="1516619687354" expanded="true" signature="148:824" ph="..." />
@@ -2197,7 +2057,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mongodb.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -2231,7 +2091,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dongnao/mongo/test/QuickStartJavaPojoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-83">
-          <caret line="141" column="52" lean-forward="true" selection-start-line="141" selection-start-column="52" selection-end-line="141" selection-end-column="52" />
+          <caret line="141" column="52" lean-forward="false" selection-start-line="141" selection-start-column="52" selection-end-line="141" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2240,9 +2100,36 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.6.0/mongo-java-driver-3.6.0-sources.jar!/com/mongodb/MongoClientOptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="418" column="7" lean-forward="true" selection-start-line="418" selection-start-column="7" selection-end-line="418" selection-end-column="7" />
+        <state relative-caret-position="506">
+          <caret line="396" column="5" lean-forward="false" selection-start-line="396" selection-start-column="5" selection-end-line="396" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache-demo2.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16791">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
